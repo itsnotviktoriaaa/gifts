@@ -42,6 +42,7 @@ button {
     padding: 14px 69px;
     font-family: "LatoSemiBold", sans-serif;
     font-size: 13px;
+    background-color: #FFFFFF;
 }
 
 .base-call:hover {
@@ -60,6 +61,7 @@ button {
     display: flex;
     align-items: center;
     outline: none;
+    background-color: #FFFFFF;
 }
 
 .main-button-call:hover {
@@ -164,6 +166,7 @@ header {
 
 .menu ul li:last-child {
     align-self: flex-end;
+    z-index: 99;
 }
 
 .logo {

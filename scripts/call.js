@@ -1,9 +1,10 @@
 $(document).ready(function () {
 
     let buttonHeader = document.getElementById('main-button-call');
+    let buttonPopular = document.getElementById('popular-button-call');
     let buttonFooter = document.getElementById('base-call');
 
-    let arrayOfButtons = [buttonHeader, buttonFooter];
+    let arrayOfButtons = [buttonHeader, buttonPopular, buttonFooter];
 
     arrayOfButtons.forEach(function (item) {
         item.addEventListener('click', openPopup);
