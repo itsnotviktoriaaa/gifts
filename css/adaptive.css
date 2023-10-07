@@ -1,0 +1,1868 @@
+/* от 1024 до 1244 */
+
+@media screen and (max-width: 1244px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo, .clock-wrapper, .tel {
+        margin-right: 0;
+    }
+
+    .menu ul li:last-child {
+        align-self: unset;
+    }
+
+    .menu ul {
+        justify-content: space-between;
+    }
+
+    /*.popular {*/
+    /*    display: none;*/
+    /*}*/
+    .main-wrapper {
+        background-position-y: -288px;
+        background-position-x: -120px;
+    }
+
+    .main-title-wrapper {
+        margin-left: unset;
+    }
+
+    h1 {
+        margin: 0 0 79px auto;
+        text-align: right;
+    }
+
+    h1 span {
+        margin-left: unset;
+    }
+
+
+    .who-buy-title {
+        margin-left: unset;
+    }
+
+    .who-buy-title .span-second {
+        margin-left: unset;
+    }
+
+    .who-buy-title span:last-child {
+        margin-left: unset;
+    }
+
+    .who-buy-gifts {
+        right: 0;
+        left: unset;
+    }
+
+    .who-buy-circles {
+        top: 156px;
+        left: 407px;
+    }
+
+
+    .popular h2:first-child {
+        margin-left: unset;
+    }
+
+    .popular .popular-title:nth-child(2) {
+        margin-left: unset;
+    }
+
+
+    .packages-title {
+        margin-left: unset;
+        position: relative;
+        z-index: 2;
+    }
+
+    .packages-title-items {
+        margin-left: unset;
+        position: relative;
+        z-index: 2;
+    }
+
+    .packages-title-gifts {
+        margin-left: unset;
+        position: relative;
+        z-index: 2;
+    }
+
+    .packages-snowman {
+        z-index: 1;
+        left: unset;
+        right: 0;
+    }
+
+
+    .not-find-title, .not-find-title span {
+        margin-left: unset;
+        text-align: right;
+    }
+
+    .not-find-connect-form {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .br-none {
+        display: none;
+    }
+
+    .why-we-title {
+        margin-left: unset;
+    }
+
+    .why-we-gift {
+        top: 91px;
+        max-width: 267px;
+    }
+
+    .partners-title {
+        margin-left: unset;
+    }
+
+    .partners-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .trust-title .trust-span-second, .trust-title .trust-span-third {
+        margin-left: unset;
+    }
+
+    .trust-item-tree {
+        position: absolute;
+        right: 0;
+    }
+
+    .trust-item-tree-description {
+        left: unset;
+        right: 55px;
+        bottom: -16px;
+    }
+
+    .trust-item-tree-img {
+        max-width: 224px;
+        right: 24px;
+        bottom: 49px;
+    }
+
+    .trust-item-tree-img img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1245px) and (min-width: 1172px) {
+
+    .partners-title span:first-child, .partners-title span:last-child {
+        margin-left: unset;
+    }
+
+    .partners-christmas-tree {
+        max-width: 201px;
+        left: unset;
+        right: 1px;
+    }
+
+}
+
+
+@media screen and (max-width: 1177px) and (min-width: 810px) {
+
+    .prev-arrow {
+        left: calc(50% - 207px);
+    }
+
+    .next-arrow {
+        left: calc(50% + 183px);
+    }
+
+}
+
+
+@media screen and (max-width: 1245px) and (min-width: 1085px) {
+
+    .trust .container {
+        position: relative;
+    }
+
+    .trust-item-tree {
+        top: -75px;
+        right: -19px;
+    }
+
+    .trust-item-tree-img {
+        max-width: 145px;
+    }
+
+}
+
+/* от 768 до 1023 */
+
+@media screen and (max-width: 1023px) {
+
+
+    .menu ul {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .main-wrapper {
+        background-position: center;
+    }
+
+    .main-button {
+        margin-left: unset;
+        display: flex;
+        justify-content: center;
+    }
+
+    .who-items {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 20px;
+    }
+
+    .who-buy-circles {
+        display: none;
+    }
+
+    .who-buy-gifts {
+        max-width: 247px;
+        right: 46px;
+    }
+
+    .packages-snowman {
+        top: 18px;
+        right: 151px;
+        max-width: 232px;
+    }
+
+    .why-we {
+        background-position-x: -57px;
+    }
+
+    .why-we-title .why-span-second {
+        margin-left: unset;
+    }
+
+    .why-we-gift {
+        top: 45px;
+        right: 1px;
+    }
+
+    .why-item {
+        width: 364px;
+    }
+
+    .partners-title span:first-child, .partners-title span:last-child {
+        margin-left: unset;
+    }
+
+    .partners .big-title {
+        font-size: 85px;
+    }
+
+    .partners-christmas-tree {
+        top: 83px;
+        max-width: 215px;
+        right: 2px;
+        left: unset;
+    }
+
+    .partners-items {
+        justify-content: unset;
+    }
+
+    .trust-companies {
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+
+    .trust-company:nth-child(3), .trust-company:nth-child(4) {
+        width: 130px;
+    }
+
+    .trust-item-tree-description {
+        right: 237px;
+        bottom: 355px;
+    }
+
+}
+
+@media screen and (max-width: 1022px) and (min-width: 876px) {
+
+    .partners-christmas-tree {
+        top: 187px;
+        max-width: 303px;
+    }
+
+}
+
+@media screen and (max-width: 1022px) and (min-width: 963px) {
+
+    .partners-christmas-tree {
+        top: -6px;
+        max-width: 162px;
+    }
+
+}
+
+
+@media screen and (max-width: 1014px) and (min-width: 891px) {
+
+    .packages-snowman {
+        top: 115px;
+        right: 12px;
+    }
+
+}
+
+@media screen and (max-width: 936px) and (min-width: 868px) {
+
+    .who-buy-gifts {
+        top: 178px;
+    }
+
+}
+
+@media screen and (max-width: 923px) and (min-width: 788px) {
+
+    .why-we-gift {
+        max-width: 170px;
+        top: 184px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 812px) {
+
+    .trust-item-tree-img {
+        max-width: 188px;
+        right: 20px;
+        bottom: 11px;
+    }
+
+    .trust-item-tree-description {
+        right: 30px;
+        top: -143px;
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+
+    .popular {
+        background-image: url("../images/back_for_popular_375.png");
+        background-repeat: repeat;
+    }
+
+}
+
+@media screen and (max-width: 810px) and (min-width: 501px) {
+
+    .multiple-items {
+        display: none;
+    }
+
+    .multiple-items-middle {
+        display: block;
+    }
+
+    .first-column {
+        align-items: center;
+        left: unset;
+    }
+
+    .prev-arrow {
+        left: calc(50% - 242px);
+    }
+
+    .next-arrow {
+        left: calc(50% + 218px);
+    }
+
+}
+
+/* for popular */
+@media screen and (max-width: 500px) {
+
+    .multiple-items {
+        display: none;
+    }
+
+    .multiple-items-middle {
+        display: none;
+    }
+
+    .multiple-items.multiple-items-mobile {
+        display: block;
+    }
+
+    .popular-item {
+        width: 138px;
+        height: 112px;
+    }
+
+    .new.zaglushka {
+        margin-top: -26px;
+    }
+
+    .popular-item-text-name, .popular-item-text-grams {
+        font-size: 11px;
+    }
+
+    .popular-item-text-price {
+        width: 50px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .popular-item-img {
+        width: 172px;
+        top: unset;
+        right: unset;
+    }
+
+    .popular-item-img img {
+        width: 100%;
+    }
+
+    .popular-item-text {
+        right: unset;
+    }
+
+    .popular-three .popular-item-text, .popular-amazing .popular-item-text, .popular-nov .popular-item-text, .popular-bal .popular-item-text, .popular-lab .popular-item-text, .popular-guests .popular-item-text, .popular-calendar .popular-item-text, .popular-phone .popular-item-text, .popular-kind .popular-item-text, .popular-crazy .popular-item-text, .popular-fishing .popular-item-text, .popular-magic .popular-item-text, .popular-white .popular-item-text, .popular-backpack .popular-item-text {
+        right: unset;
+    }
+
+    .popular-amazing .popular-item-img, .popular-birds-snow .popular-item-img, .popular-nov .popular-item-img, .popular-birds .popular-item-img, .popular-phone .popular-item-img, .popular-calendar .popular-item-img, .popular-kind .popular-item-img, .popular-castle .popular-item-img, .popular-fishing .popular-item-img, .popular-white .popular-item-img {
+        right: unset;
+        top: unset;
+    }
+
+    .popular-don .popular-item-text-name {
+        width: 64px;
+    }
+
+    .popular-bal .popular-item-text-name {
+        width: 85px;
+    }
+
+    .popular-birds .popular-item-text-name {
+        width: 89px;
+    }
+
+    .popular-lab .popular-item-text-name {
+        width: 73px;
+    }
+
+    .popular-guests .popular-item-text-name {
+        width: 69px;
+    }
+
+    .popular-calendar .popular-item-text-name {
+        width: 93px;
+    }
+
+    .popular-phone .popular-item-text-name {
+        width: 88px;
+    }
+
+    .popular-crazy .popular-item-text-name {
+        width: 53px;
+    }
+
+    .popular-gvido .popular-item-text-name {
+        max-width: 74px;
+    }
+
+    .popular-magic .popular-item-text-name {
+        width: 72px;
+    }
+
+    .popular-fishing .popular-item-text-name {
+        width: 74px;
+    }
+
+    .popular-white .popular-item-text-name {
+        width: 85px;
+    }
+
+
+    .popular-car .popular-item-img {
+        width: 151px;
+    }
+
+    .first-column {
+        align-items: center;
+        left: calc(10% - 143px);
+    }
+
+    .popular-item-text-name {
+        margin-bottom: unset;
+    }
+
+    .popular-pryanik .popular-item-img img {
+        width: 107%;
+    }
+
+    .popular-calendar .popular-item-img img {
+        width: 170%;
+    }
+
+    .popular-bear .popular-item-img img {
+        width: 89%;
+    }
+
+    .popular-bal .popular-item-img img {
+        width: 179%;
+    }
+
+    .popular-nov .popular-item-img img {
+        width: 122%;
+    }
+
+    .popular-three .popular-item-img img {
+        width: 94%;
+    }
+
+    .popular-amazing .popular-item-img img {
+        width: 86%;
+    }
+
+    .popular-korm .popular-item-img img {
+        width: 114%;
+    }
+
+    .popular-birds .popular-item-img img {
+        width: 128%;
+    }
+
+    .popular-backpack .popular-item-img img {
+        width: 90%;
+    }
+
+    .popular-evening .popular-item-img img {
+        width: 95%;
+    }
+
+    .popular-white .popular-item-img img {
+        width: 108%;
+    }
+
+    .popular-lab .popular-item-img img {
+        width: 113%;
+    }
+
+    .popular-phone .popular-item-img img {
+        width: 115%;
+    }
+
+    .popular-korm .popular-item-text {
+        right: 1px;
+    }
+
+    .popular-calendar .popular-item-text {
+        right: -7px;
+        top: 4px;
+    }
+
+    .popular-evening .popular-item-text {
+        right: 4px;
+    }
+
+    .popular-birds .popular-item-text {
+        right: 1px;
+    }
+
+    .popular-amazing .popular-item-text {
+        right: 9px;
+    }
+
+    .popular-gvido .popular-item-text {
+        right: 13px;
+    }
+
+    .popular-three .popular-item-text {
+        right: 10px;
+    }
+
+    .popular-white .popular-item-text {
+        right: 13px;
+    }
+
+    .popular-crazy .popular-item-text {
+        right: 14px;
+    }
+
+    .popular-cherry .popular-item-text {
+        right: 12px;
+    }
+
+    .popular-lab .popular-item-text {
+        right: 3px;
+    }
+
+    .popular-guests .popular-item-text {
+        right: 3px;
+    }
+
+    .popular-birds-snow .popular-item-text {
+        right: 6px;
+    }
+
+    .popular-bal .popular-item-text {
+        bottom: 5px;
+        right: 7px;
+    }
+
+    .popular-kind .popular-item-text {
+        right: 5px;
+    }
+
+    .popular-magic .popular-item-text {
+        right: 3px;
+    }
+
+    .popular-backpack .popular-item-text {
+        right: 6px;
+    }
+
+    .popular-pryanik .popular-item-img {
+        left: -4px;
+    }
+
+    .popular-calendar .popular-item-img {
+        left: 5px;
+    }
+
+    .popular-cherry .popular-item-img {
+        top: -10px;
+        right: 5px;
+    }
+
+    .popular-guests .popular-item-img {
+        right: 1px;
+    }
+
+    .popular-backpack .popular-item-img {
+        right: 3px;
+        top: -3px;
+    }
+
+    .popular-birds-snow .popular-item-img {
+        right: 2px;
+    }
+
+    .popular-white .popular-item-img {
+        right: 5px;
+    }
+
+    .popular-nov .popular-item-img {
+        left: 2px;
+    }
+
+    .popular-birds .popular-item-img {
+        left: 5px;
+        top: 5px;
+    }
+
+    .popular-three .popular-item-img {
+        right: 4px;
+    }
+
+    .popular-bear .popular-item-img {
+        right: 5px;
+    }
+
+    .popular-castle .popular-item-img {
+        right: 6px;
+    }
+
+    .popular-gvido .popular-item-img {
+        right: 1px;
+        top: 15px;
+    }
+
+    .popular-car .popular-item-img {
+        left: -3px;
+    }
+
+    .popular-magic .popular-item-img {
+        right: 3px;
+    }
+
+    .popular-crazy .popular-item-img {
+        right: 12px;
+    }
+
+    .popular-item-text {
+        right: 10px;
+    }
+
+    .popular-fishing .new.zaglushka {
+        margin-top: -40px;
+    }
+
+    .popular-magic .new.zaglushka {
+        margin-top: -39px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .popup-title span {
+        margin-left: unset;
+    }
+
+}
+
+/* от 500 до 767 для 500 делаю тут */
+
+@media screen and (max-width: 767px) {
+
+
+    .big-title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    h1 {
+        margin: 0 0 77px auto;
+    }
+
+    .main-wrapper {
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .main-wrapper section {
+        position: relative;
+        padding-bottom: 165px;
+    }
+
+    .main-title-wrapper {
+        position: relative;
+    }
+
+    .main-description {
+        position: absolute;
+        margin-top: unset;
+        top: 295px;
+        left: 0;
+    }
+
+    .main-button {
+        position: absolute;
+        top: 121px;
+        left: 0;
+    }
+
+    .who-items {
+        justify-content: space-evenly;
+    }
+
+    .who-item:first-child, .who-item:nth-child(2), .who-item:nth-child(3), .who-item:nth-child(4) {
+        width: 130px;
+    }
+
+    .who-buy-gifts {
+        max-width: 197px;
+    }
+
+    .packages {
+        background-size: contain;
+        padding-bottom: 60px;
+    }
+
+    .packages h2 {
+        line-height: 57px;
+    }
+
+    .packages-skate {
+        width: 54px;
+        margin-top: unset;
+    }
+
+    .packages-snowman {
+        right: 0;
+        top: 50px;
+        max-width: 162px;
+    }
+
+    .packages-items {
+        margin-top: 49px;
+    }
+
+
+    .not-find {
+        padding-bottom: 56px;
+    }
+
+    .not-find-title {
+        margin-bottom: 213px;
+    }
+
+    .not-find-items {
+        flex-wrap: wrap;
+        margin-left: unset;
+        row-gap: 40px;
+        justify-content: end;
+    }
+
+    .not-find-letter {
+        width: 416px;
+        top: -215px;
+        left: -290px;
+    }
+
+    .not-find-connect-text {
+        margin-bottom: 30px;
+    }
+
+    .not-find-connect-form {
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    .why-we-gift {
+        max-width: 195px;
+        top: 64px;
+    }
+
+
+    .partners {
+        padding-bottom: 112px;
+        position: relative;
+    }
+
+    .partners .big-title {
+        font-size: 50px;
+    }
+
+    .partners-title {
+        margin-bottom: 177px;
+    }
+
+    .partners h2 {
+        line-height: 55px;
+    }
+
+    .partners-items {
+        justify-content: center;
+    }
+
+    .partners-christmas-tree {
+        max-width: 260px;
+        top: 165px;
+        right: calc(50% - 125px);
+    }
+
+    .partners-item-text-description {
+        left: -73px;
+        position: relative;
+    }
+
+    .partners-item-issues {
+        position: absolute;
+        bottom: -130px;
+        left: 20px;
+    }
+
+    .partners-action-connect-form {
+        row-gap: 10px;
+    }
+
+    .partners-item-text-description {
+        margin-bottom: 30px;
+    }
+
+
+    .popular-socks {
+        left: -13px;
+        max-width: 253px;
+        bottom: -57px;
+    }
+
+
+    .trust {
+        padding-top: 85px;
+        padding-bottom: 60px;
+    }
+
+    .trust .container {
+        position: relative;
+    }
+
+    .trust h2 {
+        line-height: 55px;
+    }
+
+    .trust-items {
+        margin-bottom: 185px;
+    }
+
+    .trust-item-tree-img {
+        max-width: 166px;
+        top: 164px;
+        right: unset;
+    }
+
+    .trust-item-tree-description {
+        right: 216px;
+        bottom: -135px;
+    }
+
+    .trust-companies {
+        row-gap: 52px;
+    }
+
+
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .save-catalog {
+        text-align: center;
+        order: 2;
+        margin-bottom: unset;
+    }
+
+    .footer-button {
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .tel-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-address {
+        text-align: center;
+    }
+
+    .footer-item:first-child {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item-with-logo {
+        order: 3;
+        margin-top: 30px;
+    }
+
+    .footer-item:nth-child(3) {
+        order: 2;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 689px) {
+
+    .first-column {
+        left: calc(10% - 100px);
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 532px) {
+
+    .partners-christmas-tree {
+        top: 120px;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 644px) {
+
+    .main-wrapper {
+        background-position-y: 75px;
+        padding-bottom: 56px;
+        background-position-x: 131px;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 602px) {
+
+    .packages-snowman {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 739px) {
+
+    .not-find-letter {
+        top: -394px;
+        left: -25px;
+    }
+
+}
+
+@media screen and (max-width: 735px) and (min-width: 643px) {
+
+    .main-wrapper {
+        background-position-y: 135px;
+    }
+
+}
+
+@media screen and (max-width: 612px) {
+
+    .popup-title.big-title {
+        font-size: 25px;
+        max-width: 300px;
+        line-height: 30px;
+    }
+
+    .done-title.big-title {
+        font-size: 25px;
+    }
+
+    .popup-description {
+        width: unset;
+        max-width: 340px;
+        font-size: 20px;
+    }
+
+    .done {
+        height: 389px;
+        padding: 23px 21px 39px 21px;
+        max-width: 500px;
+    }
+
+    .done-description {
+        font-size: 20px;
+        max-width: unset;
+        margin-left: unset;
+    }
+
+    .done-snowman {
+        max-width: 161px;
+        left: calc(50% - 80px);
+    }
+
+    .done-gift {
+        max-width: 163px;
+        left: calc(50% - 80px);
+    }
+
+}
+
+@media screen and (max-width: 515px) {
+
+    .done {
+        max-width: 300px;
+    }
+
+    .done-description {
+        font-size: 17px;
+    }
+
+}
+
+/* от 375 до 499 для 375 делаю тут */
+
+@media screen and (max-width: 499px) {
+
+
+    header {
+        padding: 20px 0 51px 0;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .logo {
+        max-width: 145px;
+    }
+
+    .clock-common-schedule, .clock-text, .tel a {
+        font-size: 11px;
+    }
+
+    .clock-common-svg {
+        max-width: 16px;
+    }
+
+    .clock-common-svg svg {
+        width: 100%;
+    }
+
+    .tel {
+        position: absolute;
+        top: 41px;
+        right: 1px;
+    }
+
+    .clock-text {
+        position: relative;
+        bottom: 5px;
+        right: 1px;
+    }
+
+    .menu ul li:last-child {
+        position: absolute;
+        bottom: -401px;
+        left: calc(50% - 94px);
+    }
+
+    .big-title {
+        font-size: 44px;
+    }
+
+    .main-wrapper {
+        background-image: url("../images/back_for_main_375.png");
+        background-position: inherit;
+    }
+
+    .main-wrapper section {
+        padding-bottom: 167px;
+    }
+
+    .main-description {
+        top: 210px;
+        left: 20px;
+    }
+
+    .main-button-call {
+        width: 189px;
+        height: 47px;
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+
+    .main-button-call span:nth-child(2) svg {
+        width: 11px;
+        height: 11px;
+    }
+
+
+    .main-button-save {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-button-save {
+        font-size: 11px;
+    }
+
+    .main-button {
+        top: 113px;
+        left: 8px;
+    }
+
+    .main-button-call {
+        justify-content: space-between;
+    }
+
+    .main-button-call span:first-child {
+        margin-right: 0;
+    }
+
+
+    .who-buy {
+        padding-bottom: 60px;
+        background-image: url("../images/back_for_who_375.png");
+        background-repeat: no-repeat;
+    }
+
+    .who-buy-title {
+        text-align: end;
+        margin-bottom: 30px;
+        line-height: 46px;
+    }
+
+    .span-first {
+        position: relative;
+        right: 97px;
+    }
+
+    .who-buy-gifts {
+        max-width: 80px;
+        right: 29px;
+        top: -8px;
+    }
+
+    .who-items {
+        column-gap: unset;
+        justify-content: space-between;
+        row-gap: 30px;
+    }
+
+    .who-item:first-child, .who-item:nth-child(2), .who-item:nth-child(3), .who-item:nth-child(4) {
+        width: 158px;
+    }
+
+    .who-item:nth-child(4) .who-item-text {
+        max-width: 140px;
+    }
+
+    .who-item-text {
+        font-size: 11px;
+    }
+
+    .who-item-circle {
+        margin-bottom: 10px;
+    }
+
+    .who-item-circle svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .who-item:first-child {
+        order: 2;
+    }
+
+    .who-item:nth-child(2) {
+        order: 3;
+    }
+
+    .who-item:nth-child(3) {
+        order: 1;
+    }
+
+    .who-item:nth-child(4) {
+        order: 4;
+    }
+
+
+    .packages {
+        background-image: url("../images/back_for_packages_375.png");
+        margin-top: 60px;
+    }
+
+    .packages h2 {
+        line-height: 43px;
+    }
+
+    .packages-span {
+        position: relative;
+        left: 179px;
+    }
+
+    .packages-title-gifts {
+        text-align: right;
+    }
+
+    .packages-skate {
+        position: absolute;
+        top: -51px;
+        left: 99px;
+    }
+
+    .packages-items {
+        column-gap: 69px;
+        row-gap: 33px;
+    }
+
+    .packages-item {
+        width: 110px;
+    }
+
+    .packages-item:nth-child(2) .packages-item-img {
+        width: 86px;
+        position: relative;
+        bottom: 25px;
+        left: 2px;
+    }
+
+    .packages-item:nth-child(3) .packages-item-img {
+        width: 91px;
+    }
+
+    .packages-item:nth-child(4) .packages-item-img {
+        width: 118px;
+        right: 2px;
+    }
+
+    .packages-item:nth-child(5), .packages-item:nth-child(6) {
+        margin-top: 24px;
+    }
+
+    .packages-item:nth-child(5) .packages-item-img {
+        width: 61px;
+        left: 3px;
+        bottom: 25px;
+    }
+
+    .packages-item:nth-child(6) .packages-item-img {
+        width: 88px;
+        top: 4px;
+        left: 1px;
+        position: relative;
+    }
+
+    .packages-item-circle {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .packages-item-img {
+        width: 63px;
+    }
+
+    .packages-item-img img {
+        width: 100%;
+    }
+
+    .packages-item-text {
+        font-size: 11px;
+    }
+
+    .packages-snowman {
+        max-width: 98px;
+        left: 19px;
+        top: 101px;
+    }
+
+
+    .popular-socks {
+        left: -13px;
+        max-width: 225px;
+        bottom: -49px;
+    }
+
+
+    .not-find {
+        background-image: url("../images/back_for_not_find_375.png");
+    }
+
+    .not-find-title {
+        margin-bottom: 292px;
+    }
+
+    .not-find-letter {
+        display: none;
+    }
+
+    .not-find-letter-mobile {
+        display: block;
+        max-width: 335px;
+        right: 0;
+        left: 1px;
+        top: -287px;
+    }
+
+    .not-find-a-wrapper {
+        position: absolute;
+        right: -296px;
+        bottom: 42px;
+    }
+
+    .not-find-items {
+        row-gap: unset;
+        justify-content: flex-start;
+    }
+
+    .not-find-connect-text {
+        max-width: 314px;
+    }
+
+
+    .why-we {
+        background-image: url("../images/back_for_why_375.png");
+    }
+
+    .why-items {
+        row-gap: unset;
+    }
+
+    .why-span-first {
+        position: relative;
+        left: 130px;
+    }
+
+    .why-span-second {
+        position: relative;
+        left: 30px;
+    }
+
+    .why-we-gift {
+        max-width: 109px;
+        top: -19px;
+        right: 21px;
+    }
+
+    .why-item:nth-child(1) .why-item-text {
+        width: 245px;
+    }
+
+    .why-item:nth-child(2) .why-item-text {
+        width: 253px;
+    }
+
+    .why-item:nth-child(3) .why-item-text {
+        width: 252px;
+    }
+
+    .why-item:nth-child(4) .why-item-text {
+        width: 221px;
+    }
+
+    .why-item:nth-child(5) .why-item-text {
+        width: 207px;
+    }
+
+    .why-item:nth-child(6) .why-item-text {
+        width: 251px;
+    }
+
+    .why-item-text {
+        font-size: 15px;
+        text-transform: unset;
+        font-family: "MuseoSansCyrl300", sans-serif;
+    }
+
+
+    .partners {
+        padding-top: 60px;
+        padding-bottom: 131px;
+        background-image: url("../images/back_for_partners_375.png");
+    }
+
+    .partners h2 {
+        line-height: 43px;
+    }
+
+    .partners-items {
+        justify-content: unset;
+        row-gap: unset;
+    }
+
+    .partners .big-title {
+        font-size: 41px;
+    }
+
+    .partners-title {
+        margin-bottom: 207px;
+    }
+
+    .partners-christmas-tree {
+        top: 126px;
+    }
+
+    .partners-title span:first-child {
+        margin-left: 25px;
+    }
+
+    .partners-title span:last-child {
+        margin-left: 48px;
+    }
+
+    .partners-item-text {
+        max-width: 260px;
+    }
+
+    .partners-item-text-title {
+        font-size: 30px;
+        max-width: 260px;
+        line-height: 36px;
+    }
+
+    .partners-item-text-description {
+        max-width: unset;
+        width: 334px;
+    }
+
+    .partners-action {
+        position: relative;
+        left: calc(50% - 118px);
+    }
+
+
+    .trust {
+        background-image: url("../images/back_for_trust_375.png");
+    }
+
+    .trust-span-first {
+        margin-left: 50px;
+    }
+
+    .trust-title .trust-span-third {
+        margin-left: 74px;
+    }
+
+    .trust-item-tree-img {
+        max-width: 138px;
+        left: -218px;
+        top: 168px;
+    }
+
+    .trust-companies {
+        justify-content: center;
+        column-gap: 34px;
+    }
+
+    .trust-company:nth-child(3), .trust-company:nth-child(4) {
+        width: 149px;
+    }
+
+    .trust-company:nth-child(5) {
+        width: 324px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trust-item-tree-description {
+        width: 211px;
+        right: 5px;
+        bottom: -120px;
+    }
+
+}
+
+@media screen and (max-width: 499px) and (min-width: 376px) {
+
+    .who-buy-gifts {
+        left: 23px;
+        top: 85px;
+    }
+
+    .span-first {
+        right: unset;
+    }
+
+    .packages-span {
+        left: unset;
+    }
+
+    .why-span-first {
+        left: unset;
+    }
+
+    .not-find-letter-mobile {
+        left: calc(50% + 25px);
+        top: -512px;
+    }
+
+    .not-find-a-wrapper {
+        right: -329px;
+        bottom: 263px;
+    }
+
+    .packages-title-gifts {
+        text-align: left;
+    }
+
+    .packages-skate {
+        right: 1px;
+        left: unset;
+    }
+
+    .packages-snowman {
+        right: 47px;
+        top: 37px;
+        left: unset;
+    }
+
+    .why-span-second {
+        left: unset;
+    }
+
+    .why-we-gift {
+        top: 29px;
+    }
+
+    .partners-title span:first-child {
+        margin-left: unset;
+    }
+
+    .partners-title span:last-child {
+        margin-left: unset;
+    }
+
+    .trust-span-first {
+        margin-left: unset;
+    }
+
+    .trust-title .trust-span-third {
+        margin-left: unset;
+    }
+
+    .trust-companies {
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 495px) {
+
+    .first-column {
+        left: calc(10% - 81px);
+    }
+
+}
+
+@media screen and (max-width: 493px) and (min-width: 376px) {
+
+    .packages-skate {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 453px) and (min-width: 376px) {
+
+    .why-we-gift {
+        top: 99px;
+    }
+
+}
+
+@media screen and (max-width: 431px) and (min-width: 376px) {
+
+    .not-find-letter-mobile {
+        top: -292px
+    }
+
+    .not-find-a-wrapper {
+        bottom: 47px;
+    }
+
+}
+
+@media screen and (max-width: 432px) and (min-width: 430px) {
+
+    .not-find-letter-mobile {
+        top: -278px;
+    }
+
+    .not-find-a-wrapper {
+        bottom: 12px;
+    }
+
+}
+
+@media screen and (max-width: 433px) and (min-width: 432px) {
+
+    .not-find-letter-mobile {
+        top: -521px;
+    }
+
+    .not-find-a-wrapper {
+        bottom: 272px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .first-column {
+        left: calc(10% - 68px);
+    }
+
+}
+
+@media screen and (max-width: 420px) and (min-width: 376px) {
+
+    .who-buy-gifts {
+        top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 415px) and (min-width: 376px) {
+
+    .packages-snowman {
+        right: 22px;
+        top: 2px;
+    }
+
+}
+
+@media screen and (max-width: 402px) {
+
+    .popup, .done {
+        max-width: 305px;
+    }
+
+    .popup-title.big-title {
+        font-size: 24px;
+    }
+
+    .popup-description {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 390px) and (min-width: 376px) {
+
+    .why-we-gift {
+        top: 26px;
+    }
+
+}
+
+/* от 320 до 374 для 320 делаю тут */
+
+@media screen and (max-width: 374px) {
+
+
+    .big-title {
+        font-size: 37px;
+    }
+
+    .main-wrapper {
+        background-image: url("../images/back_for_main_more_or_less_than_375.png");
+    }
+
+    .span-first {
+        right: unset;
+    }
+
+    .who-buy {
+        background-repeat: repeat;
+        padding-bottom: 47px;
+    }
+
+    .who-buy-gifts {
+        left: 1px;
+    }
+
+    .who-items {
+        justify-content: center;
+    }
+
+    .first-column {
+        left: calc(10% - 60px);
+    }
+
+    .packages-span {
+        left: 163px;
+    }
+
+    .packages-snowman {
+        top: 131px;
+    }
+
+    .packages-items {
+        column-gap: 0;
+        justify-content: space-between;
+        margin-top: 93px;
+        row-gap: 45px;
+    }
+
+    .popular-socks {
+        left: -9px;
+        max-width: 188px;
+        bottom: -41px;
+    }
+
+    .not-find-letter-mobile {
+        max-width: 285px;
+    }
+
+    .not-find-a-wrapper {
+        right: -272px;
+    }
+
+
+    .why-span-second {
+        left: 23px;
+    }
+
+    .why-item:nth-child(1) .why-item-text, .why-item:nth-child(2) .why-item-text, .why-item:nth-child(3) .why-item-text, .why-item:nth-child(4) .why-item-text, .why-item:nth-child(5) .why-item-text, .why-item:nth-child(6) .why-item-text {
+        width: 192px;
+    }
+
+    .partners .big-title {
+        font-size: 34px;
+    }
+
+    .partners-item-text-title {
+        font-size: 25px;
+        max-width: 200px;
+    }
+
+    .partners-item-text-description, .partners-item-issues-description {
+        width: 270px;
+    }
+
+    .partners-item:first-child .partners-item-text, .partners-item:nth-child(2) .partners-item-text {
+        width: 212px;
+    }
+
+
+    .trust h2 {
+        line-height: 42px;
+    }
+
+    .trust-title .trust-span-third {
+        margin-left: 50px;
+    }
+
+    .trust-item-tree-description {
+        width: 179px;
+    }
+
+    .trust-item-tree-img {
+        max-width: 114px;
+        left: -185px;
+        top: 150px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+
+    .why-span-first {
+        left: unset;
+    }
+
+}
+
+@media screen and (max-width: 374px) and (min-width: 366px) {
+
+    .who-buy-gifts {
+        top: 87px;
+    }
+
+}
+
+@media screen and (max-width: 374px) and (min-width: 335px) {
+
+    .why-we-gift {
+        top: 109px;
+    }
+
+
+}
+
+@media screen and (max-width: 325px) {
+
+    .first-column {
+        left: calc(10% - 56px);
+    }
+
+}
+
+@media screen and (max-width: 335px) and (min-width: 319px) {
+
+    .why-span-second {
+        left: unset;
+    }
+
+}
