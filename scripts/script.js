@@ -26,8 +26,8 @@ $(document).ready(function () {
                     slidesToScroll: 2
                 }
             }
-        ]
-        // autoplay: true
+        ],
+        autoplay: true
     });
 
     $('.multiple-items-middle').slick({
@@ -56,8 +56,8 @@ $(document).ready(function () {
                     slidesToScroll: 1
                 }
             }
-        ]
-        // autoplay: true
+        ],
+        autoplay: true
     });
 
 });
