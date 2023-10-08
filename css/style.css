@@ -7,6 +7,7 @@
 body {
     color: #FFFFFF;
     background-color: #F23641;
+    overflow-x: hidden;
 }
 
 button {
