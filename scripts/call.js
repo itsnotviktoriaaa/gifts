@@ -42,6 +42,8 @@ $(document).ready(function () {
                 success: () => {
                     popup.classList.remove('popup-open');
                     done.classList.add('popup-open');
+                    name.val('');
+                    phone.val('');
                 },
                 error: () => {
                     alert('Ошибка отправки. Свяжитесь, пожалуйста, по номеру телефона.');
@@ -67,6 +69,8 @@ $(document).ready(function () {
                 success: () => {
                     popup.classList.remove('popup-open');
                     done.classList.add('popup-open');
+                    name.val('');
+                    phone.val('');
                 },
                 error: () => {
                     alert('Ошибка отправки. Свяжитесь, пожалуйста, по номеру телефона.');
@@ -92,6 +96,8 @@ $(document).ready(function () {
                 success: () => {
                     popup.classList.remove('popup-open');
                     done.classList.add('popup-open');
+                    name.val('');
+                    phone.val('');
                 },
                 error: () => {
                     alert('Ошибка отправки. Свяжитесь, пожалуйста, по номеру телефона.');
